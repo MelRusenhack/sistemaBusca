@@ -71,7 +71,7 @@ $pesquisa = $mysqli->real_escape_string($_GET['busca']); // O real_escape_string
                             <td> <?php echo $dados['dtentrega']; ?> </td>
                             <td> <?php echo $dados['destin']; ?> </td>
                             <td> <?php echo $dados['statusentrega']; ?> </td>
-                            <<td><a href="frmeditentrega.php?id=" {$id}><i class='bi bi-pencil-square'></i>Editar</a></td>
+                            <td><a href="frmeditentrega.php?id=" {$id}><i class='bi bi-pencil-square'></i>Editar</a></td>
                                 <td><a href="excluirentrega.php?id=" {$id}><i class='bi bi-trash'></i>Excluir</a></td>
                         </tr>
                 <?php
